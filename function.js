@@ -22,9 +22,9 @@
  var getuserrole=function(name, role){
 switch(role){
     case "admin":
-        return ' ${name}is admin with all access';
+        return `${name}is admin with all access`;
         case "subadmin":
-            return '${name}is subadmin with all access create and delete content';
+            return `${name}is subadmin with all access create and delete content`;
             case "testpre":
                 return  '${name}is testpre with all access create and delete content test';
                 default:
